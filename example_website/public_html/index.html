@@ -1,0 +1,71 @@
+<!-- !DOCTYPE html declares the document type as HTML -->
+<!DOCTYPE html>
+<!-- HTML is the root element of the HTML document. -->
+<html>
+	<!-- The head tag declares the head of the document. Meta information about the webpage
+			(description, title, language, etc.) is located here. In addition, resources are
+			typically loaded here (external style sheets).
+	-->
+	<head>
+    <!-- The title tag modifies the title of the tab that appears in your browser. -->
+		<title>Jair Anlas!</title>
+
+		<!-- CSS styles can be written within a style tag. They can also be loaded in from another file, or
+				 written directly on an element. -->
+		<style>
+			body {
+				/* Colors in HTML and CSS are denoted with hexidecimal digits. This sets the background color to an off-white. */
+				background: #F4F4F4;
+			}
+			.content {
+				/* Sets a maximum width of the element in relation to the screen size.  */
+				max-width: 1140px;
+				/* Resets margin around the element and centers it.  */
+				margin: 0 auto;
+			}
+			.links {
+				/* Sets the margin above and below the div called "links" to 2rem. */
+				margin:2rem 0;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- This is a page division. It allows use to contain other elements and applying styling to them all.
+			In this case, we are containing all of our content within a div with the class of "content". In <thead>
+			<style> section above, we are applying our own styling. -->
+		<div class="content">
+  		<!-- Heading tags are used to emphasize text by making it larger. Additionally, the ALIGN attribute can be
+			used to change the position of the text in relation to its containing element. -->
+			<h1 align=center>Jair Anlas!</h1>
+			<h2>CIS 2229</h2>
+			<h2>Lab Assignment #1</h2>
+				<!-- Paragraph tags are used to denote regular text -->
+			  <p>Hi, this is my first semester here and I am excited for it. :)</p>
+	     	<!-- The unordered list tag is used to begin a bullet point list. Each list item tag generates a new bullet point. -->
+	     	<ul>
+	       	<li> Temple University, IS&T, Class of 2025? I dunno, it's up in the air right now.</li>
+	       	<li> North Penn High School <em>August 2014 - June 2018</em></li>
+	        <li> Amount of creativity present in this web page: <strong>Hella</strong> </li>
+	        <!-- The a href tag creates a hyperlink that is clickable in your
+	                     browser. Mailto causes the default email client to launch -->
+			  	<li> <a href="mailto:tup72700@temple.com?Subject=Lab1%20Website" target="_top">Email Contact</a></li>
+	       </ul>
+
+		    <!-- HR creates a divider line. You do not need to close this tag, unlike most other tags. -->
+				<hr>
+
+				<h3> Link to some sites here: <h3>
+	        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+						<!-- The img tag embeds an image into your web page. The source (src) can come  from either a URL or a file stored in a file directory that your web server
+									can access. -->
+						 <img src = "https://developers.google.com/youtube/images/YouTube_logo_standard_white.png">
+					</a>
+	        <!-- You can force an image to be a certain size but that may have disastrous results. -->
+			 		<a href="http://temple.edu/"> <img width=180 height=160 src="http://temple.edu/sites/all/themes/edu/logo.png"> </a>
+
+				<div class="links">
+					<a href="page.html"> <strong><em> Example hyperlink to new page.</em></strong></a>
+					<a href="secret/"> <strong><em> Example hyperlink to htaccess protected page.</em></strong></a>
+				</div>
+		</body>
+</html>
