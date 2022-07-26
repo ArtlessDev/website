@@ -1,8 +1,17 @@
+html{
+    color: azure;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+}
+
+header{
+    align-items: right;
+}
+
 h1{
     color: azure;
     font-family: 'Trebuchet MS';
     font-size: 72px;
-    text-decoration: underline;
     text-align: center;
 }
 body {
