@@ -1,13 +1,23 @@
 html{
     color: azure;
-    font-family: 'Trebuchet MS';
+    font-family:'Lucida Sans';
     font-size: 16px;
+    width:auto;
 }
 
-header{
-    transform:translateX(84%);
-    /*background-color: aquamarine;*/
+.button{
+    position:relative;
+    top: 10%;
+    background-color: #003328;
+    font-size: 24px;
+    border: none;
+    
 }
+a{
+    color:azure;
+    font-family: 'Lucida Sans';
+}
+/*both of these work to style the button*/
 
 h1{
     font-size: 72px;
