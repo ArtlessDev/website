@@ -1,29 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-/*html{
-    color: azure;
-    font-family:'Lucida Sans';
-    font-size: 16px;
-    width:auto; pls
-}
-*/
-.button{
-    background-color: #003328;
-    font-size: 24px;
-    border: none;
-}
-a{
-    color:azure;
-    font-family: 'Poppins';
-}
-
-/*both of these work to style the button*/
-
-p{
+html{
     color: azure;
     font-family:'Poppins';
     font-size: 16px;
+    width:auto;
 }
+
 h1{
     font-size: 72px;
     text-align: center;
@@ -43,3 +26,21 @@ h2 {
 div[class$="links"]{
     text-align: center;
 }
+/*
+p{
+    color: azure;
+    font-family:'Poppins';
+    font-size: 16px;
+}
+
+.button{
+    background-color: #003328;
+    font-size: 24px;
+    border: none;
+}
+a{
+    color:azure;
+    font-family: 'Poppins';
+}
+
+/*both of these work to style the button*/
