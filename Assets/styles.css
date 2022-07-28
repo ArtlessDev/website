@@ -26,13 +26,13 @@ h2 {
 div[class$="links"]{
     text-align: center;
 }
-/*
-p{
+
+li{
     color: azure;
     font-family:'Poppins';
     font-size: 16px;
 }
-
+/*
 .button{
     background-color: #003328;
     font-size: 24px;
