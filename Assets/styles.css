@@ -28,7 +28,7 @@ div[class$="links"]{
 }
 
 li{
-    color: azure;
+    text-decoration-color: azure;
     font-family:'Poppins';
     font-size: 16px;
 }
