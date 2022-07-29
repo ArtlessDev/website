@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-
 html{
     color: azure;
-    font-family:'Poppins';
+    font-family:'Trebuchet MS';
     font-size: 16px;
     width:auto;
     margin-left:auto;
@@ -26,7 +24,7 @@ div[class$="links"]{
 }
 a{
     color:azure;
-    font-family: 'Poppins';
+    font-family: 'Trebuchet MS';
     text-align: center;
     display: block;
 }
